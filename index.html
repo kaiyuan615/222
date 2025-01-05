@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目標金額 vs. 每月儲蓄</title>
+</head>
+<body>
+    <h1>計算目標金額與每月儲蓄</h1>
+    <form action="/result" method="post">
+        <label for="goal_amount">退休目標金額 (例如：10000000):</label>
+        <input type="text" id="goal_amount" name="goal_amount" required><br><br>
+
+        <label for="years">退休年數 (例如：30):</label>
+        <input type="text" id="years" name="years" required><br><br>
+
+        <label for="monthly_expense">每月生活費 (例如：20000):</label>
+        <input type="text" id="monthly_expense" name="monthly_expense" required><br><br>
+
+        <input type="submit" value="計算">
+    </form>
+</body>
+</html>
